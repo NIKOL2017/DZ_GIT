@@ -1,20 +1,36 @@
-﻿//Задать массив из 10 целых чисел от 1 до 100.
+﻿//Первое задание. Задать массив из 10 целых чисел от 1 до 100.
 //Найти количество элементов массива в отрезке от 20 до 90.
 int[] array = new int[10];// задали массив из 10 элементов
 
 for(int i =0; i<array.Length; i++) // заполняем
 {
     array[i] = new Random().Next(1,101); // случайными числами 1-100
- System.Console.Write(array[i]+ " ");
+ System.Console.Write(array[i]+ " "); // вывели на экран 
 }
-int count=0; // переменную для подсчетf
-for(var i =0; i<array.Length; i++) // от начального индекса
+int count=0; // переменная для подсчета
+for(var i=0; i<array.Length; i++) // начали от начального индекса
 { 
  if (array[i]>19 && array[i]<91) //проверяем диапазон 20-90
- count=count++;
-
+ count=count+1;
 }
-    System.Console.WriteLine("Количество элементов "+count);
+    System.Console.WriteLine("Количество элементов в диапазоне от 20 до 90  "+count);
 
+    // Второе задание.Задать массив из  10 целых чисел.
+//Напишите программу, которая определяет количество ЧЕТНЫХ чисел
+
+int[] array1 = new int[10];// задали массив из 10 элементов
+
+for(int n=0; n<array1.Length; n++) // заполняем
+{
+    array1[n] = new Random().Next(); // случайными числами 
+ System.Console.Write(array1[n]+ " ");
+}
+int count1=0; // переменная для подсчета
+for(var n=0; n<array1.Length; n++) // от начального индекса
+{ 
+ if (array1[n]%2==0 ) //проверяем на четность
+ count1=count1+1;
+}
+Console.WriteLine("Количество четных элементов "+count1);
 
 
