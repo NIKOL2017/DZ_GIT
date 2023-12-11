@@ -33,4 +33,34 @@ for(var n=0; n<array1.Length; n++) // от начального индекса
 }
 Console.WriteLine("Количество четных элементов "+count1);
 
+// Третье задание.Задать массив из  вещественных чисел с ненулевой дробной частью.
+//Найдите разницу между максимальным и минимальным значениями массива.
+
+double[] array3 = new double[5];// сделать вещественными и неопределенным ?? кол.эл-в
+
+for(int m=0; m <array3.Length; m++) // заполняем
+{
+    array3[m] = new Random().NextDouble(); // случайными числами вещественными 
+Console.Write(array3[m]+ " "); // вывод 
+}
+double maximum=array3[0];
+double minimum=array3[0];
+for(int m=0; m<array3.Length; m ++) // движение от элемента с нулевым индексом
+{ 
+ if (array3[m] > maximum ) //ищем максимум
+ {
+ array3[m]=maximum;
+} 
+//  m++;
+ if (array3[m]<minimum ) //ищем минимум
+ {
+ array3[m]=minimum;
+}
+// m++;
+}
+
+Console.WriteLine("Максимум  "+ maximum);
+Console.WriteLine("Минимум  "+ minimum);
+double raz = maximum - minimum;
+Console.WriteLine("Разница между Максимум и Минимумом  "+ raz);
 
