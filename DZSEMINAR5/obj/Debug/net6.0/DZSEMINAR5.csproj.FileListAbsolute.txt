@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\bin\Debug\net6.0\DZSEMINAR5.exe
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\bin\Debug\net6.0\DZSEMINAR5.deps.json
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\bin\Debug\net6.0\DZSEMINAR5.runtimeconfig.json
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\bin\Debug\net6.0\DZSEMINAR5.dll
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\bin\Debug\net6.0\DZSEMINAR5.pdb
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.AssemblyInfo.cs
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.dll
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\refint\DZSEMINAR5.dll
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.pdb
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\DZSEMINAR5.genruntimeconfig.cache
+C:\Users\user\Desktop\DZ_GIT\DZSEMINAR5\obj\Debug\net6.0\ref\DZSEMINAR5.dll
