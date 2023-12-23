@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Dexpert\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\DZ_GIT\\DZSEMINAR5\\DZSEMINAR5.csproj",
+      "projectUniqueName": "C:\\Users\\Dexpert\\Desktop\\DZ_GIT\\DZSEMINAR5\\DZSEMINAR5.csproj",
       "projectName": "DZSEMINAR5",
-      "projectPath": "C:\\Users\\user\\Desktop\\DZ_GIT\\DZSEMINAR5\\DZSEMINAR5.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\DZ_GIT\\DZSEMINAR5\\obj\\",
+      "projectPath": "C:\\Users\\Dexpert\\Desktop\\DZ_GIT\\DZSEMINAR5\\DZSEMINAR5.csproj",
+      "packagesPath": "C:\\Users\\Dexpert\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dexpert\\Desktop\\DZ_GIT\\DZSEMINAR5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dexpert\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
