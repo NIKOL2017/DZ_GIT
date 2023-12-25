@@ -54,40 +54,85 @@
 // Задайте прямоугольный массив. 
 //   Найти строку с наименьшей суммой элементов
 
-int[,] arr = new int[3,4];
-int sumMin=0;
-int indexMin=0;
+// int[,] arr = new int[3,4];
+// int sumMin=0;
+// int indexMin=0;
 
-     for (int b = 0; b < arr.GetLength(0); b++)
-     {
-         int  sumElement=0; // Сумма элементов по строке
-         for (int d = 0; d < arr.GetLength(1); d++) // перемещение по столбцам
-         {              
-              arr[b,d]=new Random().Next(0,10);
-         Console.Write(arr[b,d]+"  ");       
-                sumElement += arr[b,d];
-         // sumElement= sumElement+ array[i,j];
-         }
-         Console.WriteLine("Cумма строки  "+sumElement);
+//      for (int b = 0; b < arr.GetLength(0); b++)
+//      {
+//          int  sumElement=0; // Сумма элементов по строке
+//          for (int d = 0; d < arr.GetLength(1); d++) // перемещение по столбцам
+//          {              
+//               arr[b,d]=new Random().Next(0,10);
+//          Console.Write(arr[b,d]+"  ");       
+//                 sumElement += arr[b,d];
+//          // sumElement= sumElement+ array[i,j];
+//          }
+//          Console.WriteLine("Cумма строки  "+sumElement);
     
-             if (sumElement<sumMin)
-             {
-                sumMin=sumElement;
-                indexMin=b;
+//              if (sumElement<sumMin)
+//              {
+//                 sumMin=sumElement;
+//                 indexMin=b;
                 
-             }
+//              }
          
-          Console.WriteLine();
-  }   
+//           Console.WriteLine();
+//   }   
      
-Console.WriteLine("Индекс строки минимальной суммой " +indexMin);
+// Console.WriteLine("Индекс строки минимальной суммой " +indexMin);
          
      
+
+// Задача 3: Задайте двумерный массив,который поменяет местами первую и последнюю строки массив
+
+int[,] array = new int[3,4];
+  void CreateArray() // Заполняем массив
+   {
+       for (int i = 0; i < array.GetLength(0); i++)
+       {
+           for (int j = 0; j < array.GetLength(1); j++)
+           {
+               array[i,j] = new Random().Next(1,10);
+           }
+       }
+   }
+CreateArray();
+   void PrintArray() // Выводим заданный  массив в первоначальном виде
+   {
+       for (int i = 0; i < array.GetLength(0); i++)
+       {
+           for (int j = 0; j < array.GetLength(1); j++)
+           {
+
+               System.Console.Write(array[i,j] + " ");
+           }
+           System.Console.WriteLine();
+       }
+       System.Console.WriteLine();
+   }
+   Console.WriteLine("Исходный массив");
+   PrintArray();
  
+ void ChanArray()  //  Обмен местами первой и последней строки массива
+  {    
+    for (int i = 0; i < array.GetLength(0); i++) // *** Не поняла зачем этот цикл, но без него не работает
+    {
+        if(i == 0) // Если строка первая
+         {
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                int temp=array[i, j]; // Выгрузили элементы первой строки в переменную
+                array[i, j] = array[(array.GetLength(0) - 1), j]; //  Меняем элементы местами через переменную
+                array[(array.GetLength(0) - 1), j] = temp; // присвоили элементам последней строки значения из переменной 
+                
+            }
+            
+        }
+    }
+    
+  }
 
-
-
-
-
-
-
+  ChanArray ();
+Console.WriteLine("Поменяли местами первую и последнюю строки массива");
+PrintArray();
